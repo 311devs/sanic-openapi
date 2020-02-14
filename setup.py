@@ -7,7 +7,7 @@ import re
 
 from setuptools import setup
 
-install_requires = ["sanic>=18.12.0"]
+install_requires = ["311devs-sanic==0.5.4.2"]
 
 dev_requires = ["black==19.3b0", "flake8==3.7.7", "isort==4.3.19"]
 
@@ -36,7 +36,7 @@ with open(os.path.join(project_root, "README.md"), "r") as f:
     long_description = f.read()
 
 setup(
-    name="sanic-openapi",
+    name="311devs-sanic-openapi",
     version=version,
     url="http://github.com/channelcat/sanic-openapi/",
     license="MIT",
